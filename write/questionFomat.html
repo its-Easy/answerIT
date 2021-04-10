@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Quiz</title>
+    <link rel="stylesheet" href="questionFormat.css" />
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <div class="webname">
+        <h3> &nbsp; answerIT</h3>
+      </div>
+      <div class="admin-corner"> &nbsp; Admin Corner</div>
+    </nav>
+
+    <div class="box">
+      <div class="heading">
+        <h2>Add a Question</h2>
+      </div>
+      <form action="/saveQuestionFormat" method="POST">
+        <div class="timer">Set Timer: <input type="number" name="timeLimit"/></div>
+        <div class="form">
+          Enter The Question: <br />
+          <textarea name="questionName" id="id-1" cols="70" rows="7"></textarea>
+        </div>
+        <div>
+          <br> <br> 
+          A:<input type="text" name="opt1" id="" /><br /> <br>
+          B:<input type="text" name="opt2" id="" /><br /> <br>
+          C:<input type="text" name="opt3" id="" /><br /> <br>
+          D:<input type="text" name="opt4" id="" /><br /> <br>
+        </div>
+
+        <div class="form">
+          Correct Answer:
+          <input type="radio" name="answer" value="A"/>A
+          <input type="radio" name="answer" value="B" />B
+          <input type="radio" name="answer" value="C" />C
+          <input type="radio" name="answer" value="D" />D
+        </div>
+        <div>
+          <input type="button" value="Add Next" id="next-btn" />
+          <input type="submit" value="Submit" id="submit"/>
+        </div>
+      </form>
+    </div>
+    <script>
+      function fun() {
+        document.getElementById("id-1").value = " ";
+        //document.getElementById("id-1").innerHTML = " ";
+      }
+      fun();
+      document.getElementById("submit").addEventListener('click', fun );
+    </script>
+  </body>
+</html>

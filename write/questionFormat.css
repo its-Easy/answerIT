@@ -1,0 +1,101 @@
+body{margin: 0px;
+	padding: 0px;
+		font-family:sans-serif;
+		background: url('../img/gifyash.svg');
+		background-size: cover;
+		color: aliceblue;
+	}
+	html{
+		scroll-behavior: smooth;
+	}
+	.navbar{
+		position: absolute;
+		right: 20px;
+		top: 30px;
+		display: flex;
+		}
+	.navbar li{
+			list-style: none;
+			margin:0 45px;
+			display: inline-block;
+			color:#fff;
+			font-size: 14px;
+			font-weight: bold;
+			
+			}
+		.box {background-color: #151615;
+			position: absolute;
+			/* border: 2px solid red; */
+			height: 550px;
+			width: 800px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			left: 350px;
+			top: 140px;
+			background:rgb(0,0,0,0.8);
+			border-radius:5%;
+			
+		}
+
+		.heading {
+			position: absolute;
+			top: 0px;
+		}
+
+		.form {
+			margin-left: -50px;
+			margin-top:10px;
+		}
+
+		.timer {
+			position: absolute;
+			top: 255px;
+			right: 50px;
+			
+
+		}
+		.logo{
+			margin: 25px;
+			border-radius:10%;
+		}
+		.box input[type="submit"]{
+			border:none;
+			outline:none;
+			height:30px;
+			width: 150px;
+			background:#fb2525;
+			color:#fff;
+			font-size:22px;
+			border-radius:20px;
+			position:relative;
+			margin-left: 200px;
+			margin-top:0px;
+			
+	}
+	.box input[type="submit"]:hover{
+			cursor:pointer;
+			background: #ffc107;
+			color:#000;
+			
+	}
+	.box input[type="button"]{
+		border:none;
+		outline:none;
+		height:30px;
+		width: 150px;
+		background:#fb2525;
+		color:#fff;
+		font-size:22px;
+		border-radius:20px;
+		position:relative;
+		margin-left: 30px;
+		margin-top:30px;
+		
+}
+.box input[type="button"]:hover{
+		cursor:pointer;
+		background: #ffc107;
+		color:#000;
+		
+}
