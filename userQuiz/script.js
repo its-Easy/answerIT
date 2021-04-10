@@ -1,5 +1,5 @@
 var marks =0,t=0;
-
+var result=0;
 class question {
     constructor(qname, opt1, opt2, opt3, opt4, ans, timeLimit) {
         this.qname = qname;
@@ -12,10 +12,10 @@ class question {
     }
 }
 
-let q1 = new question("Which feature you liked best in our project ?", "Time Limit", "Question Shuffle", "No returning back", "All of the above", "All of the above", 5);
-let q2 = new question("How likely is our project capable of preventing cheating ?", "0/10", "3/10", "8/10", "10/10", "10/10", 5);
-let q3 = new question("Do you still think students can cheat ?", "Yes", "They would face some difficulty", "No", "Cannot say", "No", 5);
-let q4 = new question("How much points would you like to give our project out of 10 ?", "1", "5", "8", "10", "10", 5);
+let q1 = new question("Which feature you liked best in our project ?", "Time Limit", "Question Shuffle", "No returning back", "All of the above", "All of the above", 20);
+let q2 = new question("How likely is our project capable of preventing cheating ?", "0/10", "3/10", "8/10", "10/10", "10/10", 20);
+let q3 = new question("Do you still think students can cheat ?", "Yes", "They would face some difficulty", "No", "Cannot say", "No", 20);
+let q4 = new question("How much points would you like to give our project out of 10 ?", "1", "5", "8", "10", "10", 20);
 
 var q = [];
 q.push(q1);
