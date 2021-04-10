@@ -1,6 +1,6 @@
 <h1 align ="center">answerIT</h1>
 
-
+<a href="https://hack36.com"> <img src="http://bit.ly/BuiltAtHack36" height=20px> </a>
 
 Worried about classes and tests in COVID ?
 Dont worry ,we have got your back. Experience smarter and efficient quizing experience with answerIT. With timers for individual questions and systematic question arrangement, answerIT helps in conducting cheat-proof tests.
@@ -30,6 +30,9 @@ There will be seperate login page for the admin where the quiz will be created. 
 <img src="2.png"/>
  </p>
 
+## Presentation Link:
+https://docs.google.com/presentation/d/1lYLPChCWpoJWI5O9hhESmTuRYb0iANOukDNahfasea4/edit?usp=sharing
+
 ## Technology Stack
 1. HTML
 2. CSS
@@ -52,6 +55,4 @@ Due to a lot of challenges and time limitations we were not able to fetch the qu
 * [Jatin Vishal Mishra](https://github.com/jatinmishra517)
 * [Khaliq Hussain](https://github.com/Khaliq-786)
 
-## Here is the link for the presentation of our project
-https://docs.google.com/presentation/d/1lYLPChCWpoJWI5O9hhESmTuRYb0iANOukDNahfasea4/edit?usp=sharing
   
