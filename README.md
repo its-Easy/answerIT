@@ -51,4 +51,7 @@ Due to a lot of challenges and time limitations we were not able to fetch the qu
 * [Aditya Srivastava](http://www.github.com/adityaa22)
 * [Jatin Vishal Mishra](https://github.com/jatinmishra517)
 * [Khaliq Hussain](https://github.com/Khaliq-786)
+
+## Here is the link for the presentation of our project
+https://docs.google.com/presentation/d/1lYLPChCWpoJWI5O9hhESmTuRYb0iANOukDNahfasea4/edit?usp=sharing
   
