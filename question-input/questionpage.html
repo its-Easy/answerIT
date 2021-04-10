@@ -27,13 +27,13 @@
 		<div class="heading">
 			<h2>Add a Question</h2>
 		</div>
-		<form action="" class="">
+		<form action="/saveQuestionFormat" method="POST" class="">
 			<div class="timer">
 				Set Timer: <input type="number">
 			</div>
 			<br><br><br>
 			<div class="form">
-				Enter The Question: <br> <textarea name="" id="" cols="90" rows="7" style="border-radius:2%;margin-right:-80px;"></textarea>
+				Enter The Question: <br> <textarea name="questionName" id="id-1" cols="90" rows="7" style="border-radius:2%;margin-right:-80px;"></textarea>
 			</div>
 			<div style="position:relative;margin-left:-50px;margin-top:25px;">
 				<span  id="option1">A: <textarea name="" id="" cols="50" rows="2"></textarea></span><br>
@@ -58,6 +58,14 @@
 
 		</form>
 	</div>
+	<script>
+		function fun() {
+		  document.getElementById("id-1").value = " ";
+		  //document.getElementById("id-1").innerHTML = " ";
+		}
+		fun();
+		document.getElementById("submit").addEventListener('click', fun );
+	  </script>
 </body>
 
 </html>
